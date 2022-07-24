@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Fruits/static/css/main.517756bb.css",
+    "main.js": "/Fruits/static/js/main.ddf12c5f.js",
+    "static/media/Baner.png": "/Fruits/static/media/Baner.9fb63e7b5ada72a63c79.png",
+    "static/media/Orange.png": "/Fruits/static/media/Orange.82985be856b988c62b52.png",
+    "static/media/dala.png": "/Fruits/static/media/dala.a5e0781154abca9f508e.png",
+    "static/media/tomatos.png": "/Fruits/static/media/tomatos.197a12a5c4367eca79d9.png",
+    "static/media/Cabge.png": "/Fruits/static/media/Cabge.e8069b7d5469b794b861.png",
+    "static/media/Orange2.png": "/Fruits/static/media/Orange2.c249ac90918c01d199cd.png",
+    "static/media/GarRight.png": "/Fruits/static/media/GarRight.e1b1746bcff223052059.png",
+    "static/media/Fruit1.png": "/Fruits/static/media/Fruit1.496a5c58cbc2d5dc4a07.png",
+    "static/media/Fruit.png": "/Fruits/static/media/Fruit.db07968c0eb989c18a31.png",
+    "static/media/Sara.png": "/Fruits/static/media/Sara.52858e29de9ca0fcb6c9.png",
+    "static/media/Fruit3.png": "/Fruits/static/media/Fruit3.aaef52581c97d0cf1e84.png",
+    "static/media/Gardens.png": "/Fruits/static/media/Gardens.9dede74477e047a23f80.png",
+    "static/media/keshu.png": "/Fruits/static/media/keshu.d8d83539ff0785396a60.png",
+    "static/media/tomato.png": "/Fruits/static/media/tomato.9ee73ea9c9c8c5d0a710.png",
+    "static/media/Johori.png": "/Fruits/static/media/Johori.8a11bfeadacd3619aabb.png",
+    "static/media/20.jpg": "/Fruits/static/media/20.33b94a199493d0346b9c.jpg",
+    "static/media/Sara2.png": "/Fruits/static/media/Sara2.f84abb7c89572cd8006d.png",
+    "index.html": "/Fruits/index.html",
+    "main.517756bb.css.map": "/Fruits/static/css/main.517756bb.css.map",
+    "main.ddf12c5f.js.map": "/Fruits/static/js/main.ddf12c5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.517756bb.css",
+    "static/js/main.ddf12c5f.js"
+  ]
+}
