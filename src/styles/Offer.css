@@ -1,0 +1,183 @@
+.Offer-wrap{
+  width: 100%;
+  height: auto;
+  background-color: #274C5B;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.Of-header{
+  width: 98%;
+  height: auto;
+  /* background-color: red; */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+  
+}
+
+.products-name{
+  font-family: 'Yellowtail';
+  letter-spacing: 0.36px;
+font-weight: 400;
+font-size: 36px;
+text-transform: capitalize;
+
+color: #7EB693;
+}
+
+
+.for{
+  font-weight: 700;
+  font-size: 38px;
+  color: #FFFFFF;
+}
+
+.Offer-btn{
+  width: 219px;
+  height: 82px;
+  border-radius: 16px;
+  background-color: #EFD372;
+  border: 1px solid #EFD372;
+  margin-top: 30px;
+  color: #274C5B;
+ font-size: 19px;
+ display: flex;
+ justify-content: space-around;
+align-items: center;
+transition: all ease-in 0.3s;
+}
+
+
+
+
+.Offer-block {
+  width: 97%;
+  height: auto;
+ /* background-color: #EFD372; */
+ margin: 40px auto;
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+ gap: 1rem;
+}
+
+.Offer-box{
+  width: 400px;
+  height: 570px;
+  background-color: #f7f7f7;
+  border-radius: 30px; 
+  transition: 1s;
+}
+
+.Offer-box img{
+  width: 378px;
+  height: auto;
+
+  margin-left: 1rem;
+}
+.Offer-box:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+
+
+.of-veg{
+  color: #274C5B;
+  margin-left: 2rem;
+  font-size: 21px;
+}
+.offer-footer{
+  width: 90%;
+  height: 50px;
+ /* background-color: royalblue; */
+ margin: 1rem auto;
+ display: flex;
+  justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 1257.9px){
+  .Offer-block {
+    width: 80%;
+    height: auto;
+   /* background-color: #caaa1b; */
+   margin: 40px auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+   gap: 1rem;
+  }
+  
+}
+
+
+@media (max-width: 1012.9px) {
+  .Offer-block {
+    width: 85%;
+    height: auto;
+   /* background-color: #caaa1b; */
+   margin: 40px auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+   gap: 1rem;
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 952.9px) {
+  .Offer-block {
+    width: 50%;
+    height: auto;
+   /* background-color: #caaa1b; */
+   margin: 40px auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+   gap: 1rem;
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+  }
+  .Offer-box{
+    width: 400px;
+    height: 570px;
+    background-color: #f7f7f7;
+     
+  }
+}
+
+@media (max-width: 767.9px) {
+  .Offer-block {
+    width: 100%;
+    height: auto;
+   /* background-color: #caaa1b; */
+   margin: 40px auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+   gap: 1rem;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+  }
+}
+
+
+
+@media (max-width: 480px){
+  .Offer-box img{
+    width: 90%;
+   height: 370px;
+    margin-left: 1rem;
+  }
+  .Offer-box:hover{
+    transform: scale(0.8);
+    z-index: 2;
+  }
+  
+  
+
+}

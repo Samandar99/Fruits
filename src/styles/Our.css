@@ -1,0 +1,239 @@
+.O-Image{
+    height: auto;
+    background: url('../img/Sara.png') center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 120px;
+}
+
+.Sara-Sliders{
+    width: 880px;
+    height: 500px;
+    /* background-color: red; */
+    text-align: center;  
+  
+}
+
+
+.O-title{
+    color: #7EB693;
+    font-size: 34px;
+    font-family: 'Yellowtail';
+}
+
+.few-text{
+    font-weight: 700;
+font-size: 45px;
+color: #274C5B;
+}
+
+.O-body{
+    margin-top: 50px;
+}
+.O-body img{
+ width: 115px;
+ height: 115px;
+
+}
+
+.Sara-stars {
+    width: 200px;
+    height: 30px;
+   /* background-color: blue; */
+   display: flex;
+  margin: 17px auto;
+  justify-content: center;
+ 
+}
+
+.O-color{
+    color: #FFA858;
+   font-size: 22px;
+}
+
+
+.O-text p{
+    line-height: 22px;
+}
+
+.cons{
+    display: block;
+    line-height: 15px;
+    color: #525C60;
+    font-size: 14px;
+}
+
+.sara{
+    color: #274C5B;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+}
+
+.muktars{
+    border-radius: 50%;
+}
+
+.O-tall{
+    width: 80%;
+   margin: 80px auto;
+   color: #b9b3b3;
+}
+
+.O-boxs{
+    width: 85%;
+   height: auto;
+  /* background-color: #1c5430; */
+  margin: auto;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ padding-bottom: 120px;
+}
+
+.O-box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid #7EB693;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.O-Child{
+    width: 233px;
+   height: 233px;
+   border-radius: 200px;
+   background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.kid{
+    color: #274C5B;
+    font-weight: 700;
+    font-size: 42px;
+    
+}
+.kid1{
+    font-weight: 700;
+font-size: 18px;
+color: #274C5B;
+}
+@media screen and (max-width: 1200px){
+
+    .O-boxs{
+        width: 80%;
+        height: auto;
+        /* background-color: #1c5430; */
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 120px;
+    }
+    
+    
+    .O-last{
+        margin-top: 2rem;
+    }
+    
+    .O-Image{
+        height: auto;
+        background: url('../img/Sara.png') center;
+        
+        background-size: cover;
+        padding-top: 120px;
+    }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .Sara-Sliders{
+        width: 100%;
+        height: 500px;
+        /* background-color: rgb(255, 0, 0); */
+        text-align: center;  
+      
+    }
+    .O-boxs{
+        width: 70%;
+        height: auto;
+        /* background-color: #033512; */
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 120px;
+    }
+   
+    .O-last1{
+        margin-top: 2rem;
+    }
+}
+
+
+@media (max-width: 767.9px) {
+    
+    .O-boxs{
+        width: 80%;
+        height: auto;
+        /* background-color: #28bcde; */
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 120px;
+    }
+    
+    .O-last1{
+        margin-top: 2rem;
+    }
+    .Sara-Sliders{
+        width: 100%;
+        height: auto;
+        /* background-color: rgb(255, 0, 0); */
+        text-align: center;  
+      
+    }
+    .cons{
+        padding-bottom: 2rem;
+    }
+}
+@media (max-width: 624.9px) {
+  
+    .O-boxs{
+        width: 80%;
+        height: auto;
+        /* background-color: #28bcde; */
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 120px;
+    }
+   
+    .O-box{
+        width: 250px;
+        height: 250px;
+        border: 5px solid #7EB693;
+        border-radius: 200px;
+        display: flex;
+        align-items: center;
+       justify-content: center;
+       margin-top: 2rem;
+    }
+    .O-last1{
+        margin-top: 2rem;
+    }
+   
+    .O-last{
+        margin-top: 2rem;
+    }
+}

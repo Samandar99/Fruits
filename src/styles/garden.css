@@ -1,0 +1,189 @@
+
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+
+.G-wrap{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+   justify-content: center;
+}
+
+.G-block{
+    display: flex;
+    width: 95%;
+    height: 450px;
+    /* background-color: red; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    object-fit: cover;
+    margin-top: 141px;
+} 
+
+
+.G-img{
+    width: 48%;
+    height: 60vh;
+    background: url('../img/GarRight.png') no-repeat;
+    background-size: contain;
+}
+.G-img1{
+    width: 48%;
+    height: 60vh;
+    background: url('../img/Gardens.png') no-repeat;
+    background-size: contain;
+}
+
+.G-word{
+    width: 207px;
+    height: auto;
+    /* background-color: blue; */
+    margin-left: 40px;
+   margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.G-nat{
+    font-size: 32px;
+    color: #fff;
+    font-family: Yellowtail;
+}
+
+
+.Get{
+    font-size: 38px;
+    color: #fff;
+    line-height: 45px;
+    font-weight: 400;
+}
+
+
+.G-word1{
+    width: 251px;
+    height: auto;
+    /* background-color: blue; */
+    margin-left: 40px;
+   margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.G-Offer {
+color: #7EB693;
+font-size: 32px;
+font-family: Yellowtail;
+}
+
+
+.G-off{
+    font-size: 38px;
+    color: #274C5B;
+   line-height: 45px;
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .G-word{
+        width: 207px;
+        height: auto;
+        /* background-color: blue; */
+        margin-left: 40px;
+       margin-top: 40px;
+      display: flex;
+      
+    }
+    
+    .G-word1{
+        width: 251px;
+        height: auto;
+        /* background-color: blue; */
+        margin-left: 40px;
+       margin-top: 40px;
+      display: flex;
+     
+    }
+    .G-block{
+        display: flex;
+        width: 95%;
+        height: 300px;
+        /* background-color: red; */
+        justify-content: space-between;
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-top: 141px;
+    } 
+    .G-img{
+        width: 48%;
+        height: 100%;
+        background: url('../img/GarRight.png') no-repeat;
+        background-size: contain;
+    }
+    .G-img1{
+        width: 48%;
+        height: 100%;
+        background: url('../img/Gardens.png') no-repeat;
+        background-size: contain;
+    }
+    
+}
+
+
+
+@media (max-width: 767.9px) {
+    
+    .G-block{
+        display: flex;
+        width: 95%;
+        height: auto;
+        /* background-color: red; */
+        justify-content: center;
+        align-items: center;
+      
+        flex-wrap: wrap;
+        object-fit: cover;
+        margin-top: 41px;
+    } 
+    
+    .G-img{
+        width: 500px;
+        height: 40vh;
+        background: url('../img/GarRight.png') no-repeat center;
+        background-size: cover;
+        margin-top: 1rem;
+        border-radius: 15px;
+    }
+    .G-img1{
+        width: 500px;
+        height: 40vh;
+        background: url('../img/Gardens.png') no-repeat center;
+        background-size: cover;
+        border-radius: 15px;
+    }
+    
+    .G-word{
+        width: 207px;
+        height: auto;
+        /* background-color: blue; */
+        margin-left: 40px;
+       margin-top: 40px;
+      display: flex;
+      
+    }
+    
+    .G-word1{
+        width: 251px;
+        height: auto;
+        /* background-color: blue; */
+        margin-left: 40px;
+       margin-top: 40px;
+      display: flex;
+     
+    }
+}

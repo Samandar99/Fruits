@@ -1,0 +1,198 @@
+.P-text{
+    color: #7EB693;
+    font-family: 'Yellowtail';
+    font-size: 34px;
+}
+
+.P-word{
+    color: #274C5B;
+   font-size: 42px;
+}
+
+.P-title{
+    width: 300px;
+   height: 100px;
+
+  text-align: center;
+  margin: auto;
+  margin-top: 90px;
+}
+
+
+.P-block{
+    width: 98%;
+    height: auto;
+    /* background-color: red; */
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1rem;
+   
+}
+
+
+.P-box{
+    width: 400px;
+    height: 570px;
+    background-color: #f7f7f7;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #f7f7f7;
+    position: relative;
+}
+
+.P-Button{
+    width: 118px;
+    height: 37px;
+    border-radius: 8px;
+    background-color: #274C5B;
+    border: 1px solid #274C5B;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    transition: all 0.4s ease-in;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.P-Button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.img-box-P{
+ display: flex;
+ justify-content: center;
+}
+
+.P-img{
+    width: 378px;
+    height: auto;
+    margin-top: 8rem;
+    
+}
+
+.P-name{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 6rem;  
+color: #274C5B;
+  font-size: 22px;
+}
+
+.drow{
+    width: 90%;
+    margin: 10px auto;
+   color:  #c0bbbb;
+}
+
+
+.P-price{
+    display: flex;
+    justify-content: space-around;
+}
+.P-price-text{
+    text-decoration: line-through;
+    color: #B8B8B8;
+    margin-left: 0px;
+}
+
+.cost{
+    margin-left: 10px;
+   color: #274C5B;
+  font-weight: 700;
+}
+
+.star{
+    color: #FFA858;
+}
+
+.P-box:hover{
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    border: 1px solid #cccccc;
+    background-color: white;
+   
+    transition: all 0.2s ease-out;
+}
+
+
+
+
+
+@media screen and (max-width: 1244.9px){
+    .P-block{
+        width: 80%;
+        height: auto;
+        /* background-color: red; */
+        margin: 40px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+       
+    }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1012.9px) {
+    .P-block{
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        margin: 40px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+
+
+@media (max-width: 767.9px) {
+    .P-block{
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        margin: 40px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+
+}
+
+
+
+@media (max-width: 480px) {
+    
+.P-box{
+    width: 100%;
+    height: 570px;
+    background-color: #f7f7f7;
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #f7f7f7;
+    position: relative;
+}
+
+.P-img{
+    width: 100%;
+}
+
+.drow{
+    width: 95%;
+}
+}
+
+
+
+
+
+
+ 

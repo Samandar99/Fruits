@@ -1,0 +1,110 @@
+
+.Baner1{
+   
+    
+    height: 913px;
+    background: url('../img/Baner.png') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.B-leftWords{
+    width: 53%;
+    height: auto;
+    /* background-color: red; */
+    position: relative;
+    top: 220px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.b-text {
+    font-family: Yellowtail;
+    color: #7EB693;
+   font-size: 36px;
+   font-weight: 400;
+}
+.BS-text{
+    font-size: 70px;
+    line-height: 70px;
+   
+    color: #274C5B;
+}
+
+.b-btn{
+    width: 219px;
+    height: 82px;
+    border-radius: 16px;
+    background-color: #EFD372;
+    border: 1px solid #EFD372;
+    margin-top: 30px;
+    color: #274C5B;
+   font-size: 19px;
+   display: flex;
+   justify-content: space-around;
+  align-items: center;
+  transition: all ease-in 0.3s;
+}
+
+.b-btn:hover{
+    background-color: #fff;
+    border: 1px solid #EFD372;
+}
+
+
+.b-arrow{
+    color: #fff;
+}
+.b-circle{
+    width: 38px;
+   height: 38px;
+   border-radius: 50%;
+   background-color: #335B6B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+   
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+   
+
+}
+
+
+@media (max-width: 767.9px) {
+      
+   
+
+}
+
+
+@media (max-width: 480px) {
+   
+    .B-leftWords{
+        width: 55%;
+        height: auto;
+        /* background-color: red; */
+       
+        position: relative;
+        top: 70px;
+        left: 30px;
+        display: flex;
+        flex-direction: column;
+    } 
+    
+  .BS-text{
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,177 @@
+.F-wrap{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #EFF6F1;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row{
+    width: 100%;
+    /* background-color: #8b2d2d; */
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.row .card{
+   
+    width: 400px;
+    height: 510px;
+    position: relative;
+    border: none;
+    background-clip: unset ;
+  
+    cursor: pointer;
+    
+}
+
+
+
+
+
+.row .card img{
+    background: url('../img/Fruit.png');
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row .card .content{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-content: center;
+  
+    text-align: center;
+    background: linear-gradient(45deg, rgba(232, 91, 4, 0.80), rgba(186, 24, 27, 0.80));
+    transition: all 0.5s linear;
+}
+.row .card .content.box1{
+    clip-path: circle(0% at 0 100%);
+    
+}
+.F-btn{
+    width: 220px;
+    height: 70px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    font-size: 25px;
+    color: #274C5B;
+}
+
+
+
+
+.row .card:hover .content.box1{
+    clip-path: circle(141.4% at 0 100%);
+}
+
+.row .card .content.box2{
+    clip-path: circle(0% at 50% 50%);
+}
+.row .card:hover .content.box2{
+    clip-path: circle(70.7% at 50% 50%);
+}
+
+.row .card .content.box3{
+    clip-path: circle(0% at 100% 0);
+}
+.row .card:hover .content.box3{
+    clip-path: circle(141.7% at 100% 0);
+}
+
+.row .card .content h3{
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+.row .card .content p{
+    font-size: 18;
+    color: #ffffff;
+    padding-bottom: 1px;
+}
+.row .card .content ul{
+    display: block;
+}
+.row .card .content ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.row .card .content ul li a{
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.5s linear;
+}
+.row .card .content ul li:hover a{
+    transform: translateY(-10px);
+}
+
+
+@media screen and (max-width: 1200px){
+    .row{
+        width: 80%;
+        /* background-color: #8b2d2d; */
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+  .es{
+    margin-top: 2rem;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 999.9px) {
+    .row{
+        width: 70%;
+        /* background-color: #8b2d2d; */
+        height: auto;
+       
+       display: flex;
+       justify-content: center;
+    }
+    .card{
+        margin-top: 2rem;
+    }
+}
+
+
+@media (max-width: 767.9px) {
+    .row{
+        width: 100%;
+        /* background-color: #8b2d2d; */
+        height: auto;
+       
+       display: flex;
+       justify-content: center;
+    }
+    .card{
+        margin-top: 2rem;
+    }
+}
+
+
+@media (max-width: 480px){
+    .row .card{
+   
+        width: 100%;
+        height: 510px;
+        position: relative;
+        border: none;
+        background-clip: unset ;
+      
+        cursor: pointer;
+        
+    }
+}
